@@ -1,7 +1,7 @@
 
 FROM java:8 
 
-WORKDIR /home/root/javahelloworld
+WORKDIR /javahelloworld
 RUN javac src/HelloWorld.java
 
 
