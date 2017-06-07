@@ -2,7 +2,7 @@
 FROM java:8 
 
 WORKDIR /javahelloworld
-RUN javac src/HelloWorld.java
+RUN javac HelloWorld.java
 
 
 
